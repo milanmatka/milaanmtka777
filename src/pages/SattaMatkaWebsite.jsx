@@ -134,7 +134,7 @@ const SattaMatkaWebsite = () => {
         <div className="text-yellow-300 mb-2">अब सभी मटका बाजार देखो आनलाइन ऐप पर राज देखो रोज कमाओ आभी डाउनलोड करे</div>
         <div className="bg-blue-600 rounded-full px-4 py-2 inline-block mb-2">
           <a
-            href="https://github.com/milanmatka/milaanmtka777/releases/download/untagged-0dbb2e15d27fd2b11951/app-release.apk"
+            href="https://github.com/milanmatka/milaanmtka777/releases/download/v1.0/app-release.apk"
             target="_blank"
           >
 
@@ -583,7 +583,7 @@ const SattaMatkaWebsite = () => {
           <button
             className="bg-blue-700 px-3 py-2 rounded text-sm"
           >
-            <a href="https://github.com/milanmatka/milaanmtka777/releases/download/untagged-0dbb2e15d27fd2b11951/app-release.apk">
+            <a href="https://github.com/milanmatka/milaanmtka777/releases/download/v1.0/app-release.apk">
             Matka Play
             </a>
           </button>
