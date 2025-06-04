@@ -328,68 +328,8 @@ const SattaMatkaWebsite = () => {
       </div>
 
       {/* Kalyan Charts */}
-      <div className="mx-2 mt-2">
-        <div className="bg-yellow-400 text-black text-center py-2 rounded font-bold">
-          कल्याण
-        </div>
-        <table className="w-full bg-orange-200 border-2 border-red-500">
-          <tbody>
-            {kalyanData.map((row, index) => (
-              <tr key={index}>
-                <td className="border border-red-500 p-1 text-center font-bold">{row.day}</td>
-                <td className="border border-red-500 p-1 text-center font-bold">3</td>
-                <td className="border border-red-500 p-1 text-center text-base-large">{row["3"]}</td>
-                <td className="border border-red-500 p-1 text-center font-bold">5</td>
-                <td className="border border-red-500 p-1 text-center text-base-large">{row["5"]}</td>
-                <td className="border border-red-500 p-1 text-center font-bold">7</td>
-                <td className="border border-red-500 p-1 text-center text-base-large">{row["7"]}</td>
-                <td className="border border-red-500 p-1 text-center font-bold">8</td>
-                <td className="border border-red-500 p-1 text-center text-base-large">{row["8"]}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
 
       {/* Kalyan Night/Main Bazar */}
-      <div className="mx-2 mt-2">
-        <div className="bg-yellow-400 text-black text-center py-2 rounded font-bold">
-          KALYAN NIGHT / MAIN BAZAR
-        </div>
-        <table className="w-full bg-orange-200 border-2 border-red-500">
-          <tbody>
-            {kalyanNightData.map((row, index) => (
-              <tr key={index}>
-                <td className="border border-red-500 p-1 text-center font-bold">{row.day}</td>
-                <td className="border border-red-500 p-1 text-center font-bold">
-                  {Object.keys(row).find(key => key !== 'day')}
-                </td>
-                <td className="border border-red-500 p-1 text-center text-base-large">
-                  {Object.values(row)[1]}
-                </td>
-                <td className="border border-red-500 p-1 text-center font-bold">
-                  {Object.keys(row)[2]}
-                </td>
-                <td className="border border-red-500 p-1 text-center text-base-large">
-                  {Object.values(row)[2]}
-                </td>
-                <td className="border border-red-500 p-1 text-center font-bold">
-                  {Object.keys(row)[3]}
-                </td>
-                <td className="border border-red-500 p-1 text-center text-base-large">
-                  {Object.values(row)[3]}
-                </td>
-                <td className="border border-red-500 p-1 text-center font-bold">
-                  {Object.keys(row)[4]}
-                </td>
-                <td className="border border-red-500 p-1 text-center text-base-large">
-                  {Object.values(row)[4]}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
 
       {/* Chart Links */}
       <div className="mx-2 mt-2">
