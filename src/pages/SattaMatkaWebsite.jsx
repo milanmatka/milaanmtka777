@@ -3,7 +3,7 @@ import Logo from '../assets/Logo.jpeg'
 
 const SattaMatkaWebsite = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [showPopup, setShowPopup] = useState(false);
+  
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -134,7 +134,7 @@ const SattaMatkaWebsite = () => {
         <div className="text-yellow-300 mb-2">अब सभी मटका बाजार देखो आनलाइन ऐप पर राज देखो रोज कमाओ आभी डाउनलोड करे</div>
         <div className="bg-blue-600 rounded-full px-4 py-2 inline-block mb-2">
           <a
-            href="https://drive.google.com/file/d/1umNTVp61AXvw1Jl0rP1Pyuo6Sh04MtOY/view?usp=sharing"
+            href="https://github.com/milanmatka/milaanmtka777/releases/download/untagged-0dbb2e15d27fd2b11951/app-release.apk"
             target="_blank"
           >
 
@@ -577,39 +577,15 @@ const SattaMatkaWebsite = () => {
         </div>
       </div>
 
-      {/* Popup for Matka Play Download */}
-      {showPopup && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 max-w-xs w-full text-center shadow-lg">
-            <h2 className="text-lg font-bold mb-2 text-blue-700">Download Milaan Matka 777 App</h2>
-            <a
-              href="https://drive.google.com/file/d/1umNTVp61AXvw1Jl0rP1Pyuo6Sh04MtOY/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-600 text-white px-4 py-2 rounded font-bold mb-3"
-            >
-              Download Now
-            </a>
-            <div>
-              <button
-                className="mt-2 px-4 py-1 bg-gray-300 rounded text-gray-800 font-semibold"
-                onClick={() => setShowPopup(false)}
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Bottom Navigation */}
       <div className="fixed bottom-0 left-0 right-0 bg-blue-600 text-white p-2 z-50">
         <div className="flex justify-between items-center">
           <button
             className="bg-blue-700 px-3 py-2 rounded text-sm"
-            onClick={() => setShowPopup(true)}
           >
+            <a href="https://github.com/milanmatka/milaanmtka777/releases/download/untagged-0dbb2e15d27fd2b11951/app-release.apk">
             Matka Play
+            </a>
           </button>
           <button className="bg-blue-700 px-3 py-2 rounded text-sm">Api Offer</button>
           <button
