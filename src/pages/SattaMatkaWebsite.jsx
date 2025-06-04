@@ -154,7 +154,7 @@ const SattaMatkaWebsite = () => {
           <div className="text-center mb-2">
             <div className="font-bold">Sabse Tezz Live Result Yahi Milega</div>
             <div className="text-blue-600 font-bold">SUPREME NIGHT</div>
-            <div className="text-red-600">Loading...</div>
+{/*             <div className="text-red-600">Loading...</div> */}
             <button className="bg-blue-600 text-white px-3 py-1 rounded mt-1 text-sm">Refresh</button>
           </div>
 
@@ -587,7 +587,7 @@ const SattaMatkaWebsite = () => {
             Matka Play
             </a>
           </button>
-          <button className="bg-blue-700 px-3 py-2 rounded text-sm">Api Offer</button>
+{/*           <button className="bg-blue-700 px-3 py-2 rounded text-sm">Api Offer</button> */}
           <button
             className="bg-blue-700 px-3 py-2 rounded text-sm"
             onClick={() => window.location.reload()}
