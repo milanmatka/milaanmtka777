@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your CSS file */
+html {
+  font-size: 120%; /* Increases all rem-based font sizes by 20% */
+}
