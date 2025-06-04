@@ -131,7 +131,7 @@ const SattaMatkaWebsite = () => {
 
       {/* Online Matka Play Section */}
       <div className="mx-2 mt-2 bg-red-600 text-white text-center py-3 rounded">
-        <div className="text-yellow-300 mb-2">अब सभी मटका बाजार देखो आनलाइन ऐप पर राज देखो रोज कमाओ आभी डाउनलोड करे</div>
+        <div className="text-yellow-300 mb-2">अब सभी मटका बाजार देखो आनलाइन ऐप पर रोज देखो रोज कमाओ आभी डाउनलोड करे</div>
         <div className="bg-blue-600 rounded-full px-4 py-2 inline-block mb-2">
           <a
             href="https://github.com/milanmatka/milaanmtka777/releases/download/v1.0/app-release.apk"
