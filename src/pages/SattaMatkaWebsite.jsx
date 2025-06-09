@@ -102,7 +102,7 @@ const SattaMatkaWebsite = () => {
       </div>
 
       {/* Service Description */}
-   <div className="mx-2 mt-2 bg-orange-200 border-2 border-red-500 rounded p-2  text-center text-pink-500">
+   <div className="mx-2 mt-2 bg-orange-200 border-2 border-red-500 rounded p-2  text-center text-blue-600 text-sm ">
         <strong>Satta Matka Milaan Matka 777.net Kalyan Matka Result</strong><br />
         Milaan Matka 777.Service is the No. 1 Matka Sites welcomes you full-heartedly. Here below you can find the perfect guess by the top guesser along with the Fast Matka Result too. Aaj Ka Satta Kalyan Fix Single Jodi free update here you find top Matka Market of India Kalyan Main Milan Rajdhani "kalyan Matka Tips "fast Matka Result "kalyan Main Rajdhani Matka Chart "Matka Guessing by Milaan Matka 777 By App Best Matka Site By Milaan Matka 777 143
       </div>
