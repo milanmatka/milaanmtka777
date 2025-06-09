@@ -93,7 +93,8 @@ const SattaMatkaWebsite = () => {
             <img src={Logo} alt="Logo" className="w-20 h-20 rounded mr-3" />
           </div>
           <div className="text-right">
-            <h1 className="text-3xl-large font-bold text-pink-500">Milaan<span className="text-white">Matka 777</span></h1>
+            <h1 className="text-3xl-large font-bold ">Milaan<span className="text-white">Matka </span> <span className="text-white shadow-lg shadow-black">777</span>
+ </h1>
           </div>
         </div>
         <div className="text-center text-blue-600 font-semibold pb-2 text-lg-large">
