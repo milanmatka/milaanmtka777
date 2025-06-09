@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Logo from '../assets/Logo.jpeg'
+import Logo from '../assets/newlogo.png'
 
 const SattaMatkaWebsite = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
